@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Google</title>
+    <!--favicon-->
+    
+    <!--Bootstrap-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <!--custom-->
+    <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+   <!--this is the header content
+   
+   Gmail Images (apps icon) (notifications icon) (user icon)-->
+    <div class="nav justify-content-end" id="content-top">
+        <div id="mail-link">
+            <p><a href="https://mail.google.com/mail/">Gmail</a></p>
+        </div>
+        <div id="images-link">
+            <p><a href="https://www.google.com/imghp?hl=en&ei=qpajWlv_GYakjw59v6zQDQ&ved=0EKouCAloAQ">Images</a></p>
+        </div>
+        <div id="apps">
+            <img src="img/apps.svg" alt=". . ." width="20px">
+        </div>
+        <div id="notification">
+            <img src="img/notification.svg" alt="." width="20px">
+        </div>
+        <div id="user-image">
+            <img src="img/user.jpg" alt=".">
+        </div>
+    </div><!--closes header-->
+    
+    <!--main logo and form 
+    
+    main logo with link to google.com
+    search bar
+    Google Search I'm Feeling Lucky
+    -->
+    <div id="form-logo">
+        <div id="logo">
+            <img src="img/logo.svg" alt="the google logo">
+        </div>
+        <form id="search">
+            <div class="form-group">
+    <input type="seach" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Search something...">
+  </div>
+            <br/>
+            <div>
+                <a href="homepage.html" class="btn btn-secondary">Google Search</a>
+                <a href="www.agoogleaday.com" class="btn btn-secondary">I'm Feeling Lucky</a>
+            </div>
+        </form>
+    </div>
+    <!--footer
+        This will contain a standard google footer of:
+        left: Advertising Business About
+        right: Privacy Terms Settings
+    -->
+    <div class="navbar fixed-bottom" id="footer">
+            <p>
+                    <a href="" class="left">Advertising</a>
+                    <a href="" class="left">Business</a>
+                    <a href="" class="left">About</a>
+                    <a href="" class="right">Privacy</a>
+                    <a href="" class="right">Terms</a>
+                    <a href="" class="right">Settings</a>
+                
+        </p>
+    </div>
+</body>
+</html>
