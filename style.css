@@ -5,6 +5,10 @@ html, body {
     margin-top: 10px;
 }
 
+body {
+    background-image: url('img/background.png');
+    background-repeat: no-repeat;
+}
 div {
     padding: 0px 10px 3px 10px;
 }
@@ -17,15 +21,28 @@ a {
     border-radius: 100%;
 }
 
+.this-drop, .pos-f-t {
+    background-color: transparent;
+}
+/*applying styles to the search area*/
 #form-logo {
     justify-content: center;
     text-align: center;
+    margin-top: 15%;
+}
+
+#searchbar {
+    max-width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: left;
 }
 
 .btn {
     margin-top: -20px;
 }
 
+/*this is for the footer*/
 #navbar {
     background-color: #cdcdcd;
 }
